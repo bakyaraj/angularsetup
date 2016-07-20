@@ -1,2 +1,6 @@
-# angularsetup
-angular setup for demo project
+### angular js setup
+`
+  npm install
+  bower 
+  npm run server
+`
