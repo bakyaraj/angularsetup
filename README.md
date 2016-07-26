@@ -1,14 +1,14 @@
 Quick Start angularsetup With Grunt AnD Bower
 Step1 : Install Node.js
 
- git clone https://github.com/bakyaraj/angularsetup.git
+git clone https://github.com/bakyaraj/angularsetup.git
 
- cd angularsetup
+cd angularsetup
 
- npm -g install grunt-cli karma bower
+npm -g install grunt-cli karma bower
 
- npm install
+npm install
 
- bower install
- 
+bower install
+
 Start Your Application "User live-server"
