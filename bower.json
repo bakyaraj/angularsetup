@@ -1,18 +1,24 @@
 {
-  "name": "baki-demo",
-  "description": "",
-  "main": "index.js",
-  "license": "ISC",
-  "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
+  "name": "angular-fancytree",
+  "description": "Quick fancytree directive",
+  "version": "1.0.2",
+  "homepage": "https://github.com/tomasz-szymanek/angular-fancytree",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
-    "angular": "^1.5.7",
-    "angular-fancytree": "^1.0.2"
-  }
+    "angular": "~1.4.0",
+    "jquery-ui": "~1.11.4",
+    "jquery": "~2.1.4",
+    "jquery.fancytree": "fancytree#~2.13.0"
+  },
+  "main": [
+    "dist/angular-fancytree.js"
+  ],
+  "ignore": [
+    ".*",
+    "package.json",
+    "/bower_components",
+    "example",
+    "/src"
+  ]
 }

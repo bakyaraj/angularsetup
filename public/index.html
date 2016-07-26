@@ -1,17 +1,18 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myapp">
+<html lang="en" ng-app="angular-fancytree">
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="libs/jquery.fancytree/dist/skin-bootstrap-n/ui.fancytree.css">
+	<link rel="stylesheet" href="libs/jquery.fancytree/dist/skin-vista/ui.fancytree.min.css">
 </head>
 <body>
-	<div ng-controller="MainController">
-		{{name}}
+	<div>
+		<input class="search"></input>
 
-		<hr>
-		
+<div ng-controller="ExampleController">
+    <fancytree id="exampleFancytree" debuglevel="0" id="nowe" checkbox="true" disabled="false"></fancytree>
+</div>		
 	</div>
 	<!-- customjs -->
 	<script src="js/main.js"></script>
@@ -20,7 +21,6 @@
 	<script src="libs/jquery/dist/jquery.js"></script>
 	<script src="libs/jquery-ui/jquery-ui.js"></script>
 	<script src="libs/jquery.fancytree/dist/jquery.fancytree.js"></script>
-	<script src="libs/angular-fancytree/dist/angular-fancytree.js"></script>
 
 	<!-- angular js -->
 	<script src="app/app.js"></script>
