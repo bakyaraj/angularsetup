@@ -11,4 +11,6 @@ npm install
 
 bower install
 
-Start Your Application "User live-server"
+Start Your Application "live-server"
+
+Open This File  : http://127.0.0.1:8080/public/
